@@ -1,0 +1,4 @@
+# Runtime and test requirements for JetPack 4.6 (Python 3.6.9).
+# Install OpenCV from JetPack (python3-opencv), NOT from pip. See docs/SETUP.md.
+numpy==1.19.5        # last NumPy series that supports Python 3.6; verify wheel/build on aarch64
+smbus2==0.4.1        # pure-Python I2C access for the MPU6050 (only on the device)
